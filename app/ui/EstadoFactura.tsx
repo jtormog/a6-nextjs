@@ -7,7 +7,7 @@ interface Estado {
     estado: EstadosPosibles,
 }
 export default function EstadoFactura({estado } : Estado){
-    let iconTailwind = "ml-1 w-4"
+    const iconTailwind = "ml-1 w-4"
     return (
         <>
             <span className={clsx("inline-flex items-center px-2 py-1 rounded",
